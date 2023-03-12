@@ -8,7 +8,7 @@ All features can be disabled in settings
 
 #### Skill Presets
 #### CC indicator
-#### Revitalise overlay (slightly buggy, disabled by default)
+#### Revitalise overlay (disabled by default)
 #### Chat modification
 #### eHp/DPS/Burst stats on character panel
 
