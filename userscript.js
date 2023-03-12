@@ -2,7 +2,7 @@
 // @name         Scout UI
 // @version      0.1
 // @description  Custom hordes.io UI
-// @author       Bau
+// @author       Desk
 // @match        https://hordes.io/play
 // @grant        GM_addStyle
 // @grant        GM_getResourceText
