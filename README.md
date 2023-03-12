@@ -1,8 +1,8 @@
 # ScoutUI
 
-UI mod for [hordes.io](https://hordes.io) - adds QoL features to make the game experience smoother.
-Compatible with **Ruin UI**
-All features can be disabled in settings
+UI mod for [hordes.io](https://hordes.io) - adds QoL features to make the game experience smoother. 
+Compatible with **Ruin UI** 
+All features can be disabled in settings 
 
 ## Features
 
