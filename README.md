@@ -14,4 +14,4 @@ All features can be disabled in settings
 
 ## Contact
 
-Visit the [discord server](https://discord.gg/MFyd7WRYHF) to make suggestions or report bugs
+Visit the [discord server](https://discord.gg/MFyd7WRYHF) to suggest features or report bugs
