@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Scout UI
-// @version      1.2.2
+// @version      1.4.9
 // @description  Custom hordes.io UI
 // @author       Desk
 // @match        https://hordes.io/play
