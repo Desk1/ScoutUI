@@ -24,14 +24,14 @@
 }
 
 .chatTransformer {
-    width: 10px;
-    height: 10px;
+    width: 7px;
+    height: 7px;
     background: #dae8ea54;
     position: absolute;
     pointer-events: all;
 }
 
-#resizer {
+#resizer {  
     cursor: se-resize;
     right: 4px;
     top: 4px;
@@ -59,16 +59,27 @@
     position: absolute;
     padding: 0px;
     transition: background 1s ease-out;
+    --shadow: none;
+    --bg: none;
+    --cctransition: background 1s ease-out;
+    box-shadow: var(--shadow);
+    background: var(--bg);
+    transition: var(--cctransition);
 }
 
 .hardCC {
-    box-shadow: 0px 0px 0px 3px #fc0328;
+    /*box-shadow: 0px 0px 0px 3px #fc0328;*/
     background: rgba(252, 40, 40, 0.8);
 }
 
 .mediumCC {
-    box-shadow: 0px 0px 0px 3px #fcce03;
+    /*box-shadow: 0px 0px 0px 3px #fcce03;*/
     background: rgba(255, 227, 47, 0.52);
+}
+
+.noCC {
+    /*box-shadow: none;*/
+    background: none;
 }
 
 /* REV INDICATOR*/
@@ -197,4 +208,21 @@
     grid-template-columns: 1fr 1fr;
     grid-gap: 8px;
     align-items: center;
+}
+
+/* SPEEDRUN */
+.speedrunmenu {
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 8px;
+}
+
+.speedrunactivate {
+    grid-column: span 2;
 }
